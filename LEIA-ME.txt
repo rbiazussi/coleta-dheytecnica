@@ -1,0 +1,11 @@
+Coleta Dheytécnica - pacote para hospedagem (PWA)
+
+1. Envie todos os arquivos desta pasta para uma pasta de um site com HTTPS
+   (por exemplo https://www.seudominio.com/coleta/). Mantenha os nomes.
+2. Abra o endereço no celular, uma vez, com internet.
+3. No menu do navegador, escolha "Adicionar à tela inicial" (Android: "Instalar app").
+4. A partir daí o formulário abre pelo ícone e funciona sem internet.
+
+Atualização: ao trocar o index.html, altere também o nome do cache na primeira
+linha do sw.js (coleta-dht-v1 -> coleta-dht-v2) para os aparelhos buscarem a nova versão.
+Os rascunhos ficam guardados em cada aparelho; nada é enviado a um servidor.
